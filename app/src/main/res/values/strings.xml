@@ -6,4 +6,11 @@
     <string name="todo_manager">Todo Manager</string>
     <string name="www_todomanager_com">www.todomanager.com</string>
     <string name="sort">Sort</string>
+    <string name="today">Today</string>
+    <string name="currenttime">CurrentTime</string>
+    <string name="add_note">Add Note</string>
+    <string name="selected_date">Selected Date</string>
+    <string name="title">Title</string>
+    <string name="detail">Detail</string>
+    <string name="save">Save</string>
 </resources>

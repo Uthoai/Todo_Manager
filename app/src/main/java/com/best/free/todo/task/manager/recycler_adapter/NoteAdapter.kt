@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.best.free.todo.task.manager.database.NoteData
 import com.best.free.todo.task.manager.databinding.NoteItemBinding
-import java.util.logging.Handler
 
 class NoteAdapter(private var handleUserClick: HandleUserClick ,private var noteList: MutableList<NoteData>):
     RecyclerView.Adapter<NoteViewHolder>() {

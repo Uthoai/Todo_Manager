@@ -1,12 +1,11 @@
 package com.best.free.todo.task.manager.ui
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import androidx.appcompat.widget.SearchView
 import androidx.room.Room
-import com.best.free.todo.task.manager.R
 import com.best.free.todo.task.manager.database.NoteDao
 import com.best.free.todo.task.manager.database.NoteData
 import com.best.free.todo.task.manager.database.NoteDatabase
@@ -49,6 +48,7 @@ class SearchActivity : AppCompatActivity(),NoteAdapter.HandleUserClick {
                 return true
             }
 
+            @SuppressLint("NotifyDataSetChanged")
             override fun onQueryTextChange(newText: String?): Boolean {
                 searchList.clear()
                 val searchText = newText!!.toLowerCase(Locale.getDefault())

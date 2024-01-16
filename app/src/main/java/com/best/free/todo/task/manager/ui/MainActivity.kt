@@ -1,5 +1,6 @@
  package com.best.free.todo.task.manager.ui
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -16,7 +17,6 @@ import com.best.free.todo.task.manager.databinding.ActivityMainBinding
 import com.best.free.todo.task.manager.recycler_adapter.NoteAdapter
 import java.text.DateFormat
 import java.util.Calendar
-import java.util.Collections
 
  class MainActivity : AppCompatActivity(), NoteAdapter.HandleUserClick {
     private lateinit var binding: ActivityMainBinding
@@ -101,6 +101,7 @@ import java.util.Collections
      }
 
      //Current Date & Time function
+     @SuppressLint("SetTextI18n")
      private fun currentDateTime() {
          val calender = Calendar.getInstance().time
          val dateFormat = DateFormat.getDateInstance(DateFormat.SHORT).format(calender)

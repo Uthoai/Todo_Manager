@@ -10,10 +10,7 @@ import com.best.free.todo.task.manager.database.NoteDao
 import com.best.free.todo.task.manager.database.NoteData
 import com.best.free.todo.task.manager.database.NoteDatabase
 import com.best.free.todo.task.manager.databinding.ActivityAddNoteBinding
-import java.text.DateFormat
-import java.text.SimpleDateFormat
 import java.util.Calendar
-import java.util.Locale
 
 class AddNoteActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAddNoteBinding
