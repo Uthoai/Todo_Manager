@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="image_shape" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="circleRadius">12dp</item>
+    </style>
+</resources>

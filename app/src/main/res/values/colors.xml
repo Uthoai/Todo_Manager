@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Cyan">#0AB6AB</color>
+    <color name="bg">#151515</color>
+    <color name="itemBg">#201F1F</color>
+    <color name="taskOnGoingText">#F5F5F5</color>
+    <color name="taskCompleteText">#7A7777</color>
+</resources>

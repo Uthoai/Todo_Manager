@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TodoManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/Cyan</item>
+        <item name="colorPrimaryVariant">@color/Cyan</item>
+        <item name="colorOnPrimary">@color/Cyan</item>
+        <item name="android:statusBarColor">@color/Cyan</item>
+    </style>
+
+    <style name="Theme.TodoManager" parent="Base.Theme.TodoManager" />
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Todo Manager</string>
+    <string name="setting">Setting</string>
+    <string name="theme">Theme</string>
+    <string name="search">Search</string>
+    <string name="todo_manager">Todo Manager</string>
+    <string name="www_todomanager_com">www.todomanager.com</string>
+    <string name="sort">Sort</string>
+</resources>
